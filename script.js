@@ -23,3 +23,5 @@ function Angkot(supir,trayek,penumpang,kas) {
         }
     }
 }
+
+var angkot = new Angkot('Dzaki',['jogja','wates'], [], 0)
