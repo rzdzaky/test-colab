@@ -7,7 +7,16 @@
     <title>Belajar Javascript Object</title>
 </head>
 <body>
+
+    <h1 class="h1">Anjg</h1>
+    
     <script>
+        let h1 = document.querySelector('h1');
+        h1.addEventListener('click',function () {
+            p3.style.backgroundColor = "red";
+            p3.style.color = "white";
+        });
+
         function Angkot(supir,trayek,penumpang,kas) {
             this.supir = supir;
             this.trayek = trayek;
